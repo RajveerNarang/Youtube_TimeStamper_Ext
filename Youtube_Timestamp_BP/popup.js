@@ -23,7 +23,7 @@ const addNewBookmark = (bookmarks, bookmark) => {
 
 const viewBookmarks = (currentBookmarks = []) => {
   const bookmarksElement = document.getElementById("bookmarks");
-  bookmarksElement.innerHTML = "";
+  bookmarksElement.innerHTML = " ";
 
   if (currentBookmarks.length > 0) {
     for (let i = 0; i < currentBookmarks.length; i++) {
