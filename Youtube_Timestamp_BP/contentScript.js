@@ -15,7 +15,7 @@
     const currentTime = youtubePlayer.currentTime;
     const newBookmark = {
       time: currentTime,
-      desc: "Bookmark at " + getTime(currentTime),
+      desc: "TimeStamp at " + getTime(currentTime),
     };
 
     currentVideoBookmarks = await fetchBookmarks();

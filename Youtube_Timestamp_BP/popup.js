@@ -23,7 +23,7 @@ const addNewBookmark = (bookmarks, bookmark) => {
 
 const viewBookmarks = (currentBookmarks = []) => {
   const bookmarksElement = document.getElementById("bookmarks");
-  bookmarksElement.innerHTML = " ";
+  bookmarksElement.innerHTML = "";
 
   if (currentBookmarks.length > 0) {
     for (let i = 0; i < currentBookmarks.length; i++) {
@@ -31,7 +31,7 @@ const viewBookmarks = (currentBookmarks = []) => {
       addNewBookmark(bookmarksElement, bookmark);
     }
   } else {
-    bookmarksElement.innerHTML = '<i class="row">No bookmarks to show</i>';
+    bookmarksElement.innerHTML = '<i class="row">No timestamps to show</i>';
   }
 
   return;
@@ -94,6 +94,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     const container = document.getElementsByClassName("container")[0];
 
     container.innerHTML =
-      '<div class="title">This is not a youtube video Webpage.</div>';
+      '<div class="title">This is not a youtube video page.</div>';
   }
 });
