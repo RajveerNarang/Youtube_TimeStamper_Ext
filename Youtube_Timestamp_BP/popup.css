@@ -1,6 +1,6 @@
 .container {
   width: 280px;
-  color: #0c74c332;
+  color: lightblue;
 }
 
 .title {
@@ -14,6 +14,7 @@
   font-size: 12px;
   margin: 0;
   padding: 0px 2px;
+  background-color: orange;
 }
 
 .textbox:focus {
@@ -21,12 +22,12 @@
   border-color: #66afe9;
 }
 
-.timestamps {
+.bookmarks {
   margin: 5px 5px;
   padding: 3px;
 }
 
-.timestamp {
+.bookmark {
   display: flex;
   border-bottom-color: #00254d;
   border-bottom-width: 1px;
@@ -37,17 +38,17 @@
   margin-bottom: 7px;
 }
 
-.timestamp-title {
+.bookmark-title {
   padding-left: 2px;
 }
 
-.timestamp-controls img {
+.bookmark-controls img {
   margin: 0 4px;
   width: 18px;
   height: 18px;
   cursor: pointer;
 }
-.timestamp-controls {
+.bookmark-controls {
   flex: auto;
   text-align: right;
 }
