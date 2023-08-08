@@ -1,6 +1,6 @@
 .container {
   width: 280px;
-  color: lightblue;
+  color: black;
 }
 
 .title {
@@ -29,6 +29,7 @@
 .bookmark {
   display: flex;
   border-bottom-color: #00254d;
+  border-top-color: #00254d;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-radius: 0.8rem;
